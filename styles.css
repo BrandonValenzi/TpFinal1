@@ -98,3 +98,284 @@
 
 }
 
+.presentacionimagencontainer > img {
+
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 10px;
+    border-color: white;
+    box-shadow: 3px 3px 10px rgba(133,133,133,0.3);
+
+}
+
+.grisoscuro {
+
+    color: #212529;
+
+}
+
+.titulo {
+
+    font-weight: 400;
+    font-size: 1.3rem;
+
+}
+
+.enfasis {
+
+    font-weight: bold;
+    border-right-style: solid;
+    border-right-color: #d7c448;
+    border-right-width: 8px;
+    font-size: 3rem;
+
+}
+
+.titulochico {
+
+    font-size: 1rem;
+    font-weight: 400;
+
+
+}
+
+.presentaciontitulocontainer {
+
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.botonportfolio {
+
+    text-decoration: none;
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+
+}
+
+.flexcolumna {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.flexcenterv {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.flexcenter {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.containerresume {
+
+    border-left-style: solid;
+    border-left-width: 3px;
+    border-left-color: #f5df4e;
+    padding-left: 15px;
+
+}
+
+
+
+.containeritem {
+
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #4c4d4d;
+    padding: 20px 0;
+
+}
+
+.containeritem > h5 {
+
+    color: #4c4d4d;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    font-weight: 500;
+
+}
+
+.containeritem > h6 {
+
+    color: #4c4d4d;
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+
+}
+
+.containeritem > p {
+
+
+    color: #4c4d4d;
+    font-size: 0.9rem;
+    font-weight: 300;
+
+
+}
+
+.containerresume .containeritem:last-child {
+
+    border-bottom-style: none;
+
+    
+}
+
+.containerskill {
+
+    width: 49%;
+    margin-bottom: 20px;
+
+
+}
+
+.containerskill > h5 {
+
+    margin-bottom: 10px;
+
+}
+
+.barraprogreso {
+
+    display: flex;
+    flex: 1;
+
+}
+
+.progresocompletado {
+
+    background-color: #f5df4e;
+    height: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+
+}
+
+.progresopendiente {
+
+    background-color: #4c4d4d;
+    height: 10px;
+
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.navtab > button, .navtab > a {
+
+    border-style: none;
+    background-color: unset;
+    font-weight: 500;
+    padding: 5px 8px;
+    cursor: pointer;
+    border-bottom-style: solid;
+    border-bottom-color: #f5df4e;
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #212529;
+
+    transition: color 300ms, background-color 300ms;
+
+}
+
+.navtab > button:hover, .navtab > a:hover {
+
+    color: white;
+    background-color: #212529;
+
+}
+
+.imagegridcontainer > img {
+
+    width: 30%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    margin-top: 5%;
+
+}
+
+.inputformulario {
+
+    border-style: none;
+    background-color: unset;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: gray;
+    margin-bottom: 10px;
+
+}
+
+.labelformulario {
+
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+
+}
+
+.botonenviar {
+
+    border-style: none;
+    background-color: #212529;
+    color: white;
+    padding: 15px 60px;
+    font-weight: 500;
+
+}
+
+.redes {
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.redes > a {
+
+    width: 20px;
+    height: 20px;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card > img {
+
+    width: 60px;
+    height: 60px;
+
+}
+
+@media screen and (min-width: 1000px) {
+
+    .componente {
+
+        padding-left: 25%;
+        padding-right: 25%;
+
+    }
+    
+}
